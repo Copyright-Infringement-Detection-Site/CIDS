@@ -1,0 +1,22 @@
+.spinner {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
+  z-index : 100;
+}
+
+.text-center{
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.spinner-border {
+  position: fixed;
+    box-shadow : rgba(0,0,0,0.5) 0 0 0 9999px;
+  top: 50%;
+  right: 50%;
+    z-index : 100;
+}

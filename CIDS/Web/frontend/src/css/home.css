@@ -1,0 +1,48 @@
+div.full-height {
+  height: 100vh;
+}
+.hero-image.main-hero-image {
+  
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+} 
+.hero-image.project-hero-image {
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./homeImg/project.jpg");*/
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image.board-hero-image {
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./homeImg/bullet.jpg");*/
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50.5%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-text > img {
+  max-height: 400px;
+  max-width: 400px;
+}
+.home-card {
+  border: none;
+}
+
+@media screen and (max-width:512px) {
+  .hero-text {
+    display:none
+  }
+}
